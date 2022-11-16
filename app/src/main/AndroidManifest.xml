@@ -12,15 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MaternalHealth"
         tools:targetApi="31">
-        <activity
-            android:name=".LoginActivity"
-            android:exported="false"
-            android:label="@string/title_activity_login"
-            android:theme="@style/Theme.MaternalHealth.NoActionBar">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
+
         <activity
             android:name=".RegisterActivity"
             android:exported="true">
