@@ -29,6 +29,7 @@ class LoginActivity : AppCompatActivity() {
 
         val button : Button = findViewById(R.id.login_btn)
 
+        //LOGIN USER
         button.setOnClickListener {
             val email = email.text.toString()
             val password = password.text.toString()
@@ -47,8 +48,14 @@ class LoginActivity : AppCompatActivity() {
 
         }
 
+        //FORGOT PASSWORD
+        val forgot_password : TextView = findViewById(R.id.forgot_password)
+        forgot_password.setOnClickListener {
+
+        }
 
 
+        //CREATE NEW ACCOUNT
         val create_account : TextView = findViewById(R.id.create_newaccount)
         create_account.setOnClickListener {
             val intent = Intent(this, RegisterActivity::class.java)
