@@ -37,8 +37,13 @@ class LoginActivity : AppCompatActivity() {
         val email: EditText = findViewById(R.id.email)
         val password: EditText = findViewById(R.id.password)
         val forgot_password: TextView = findViewById(R.id.forgot_password)
-
         val button: Button = findViewById(R.id.login_btn)
+
+        if (firebaseAuth.currentUser !=null){
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
 
         //LOGIN USER
         button.setOnClickListener {
