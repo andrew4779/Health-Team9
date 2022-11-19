@@ -1,7 +1,7 @@
 ﻿# Health-Team9
- Maternal Health Care Project:
+ Maternal Health Care App
 
-#Features
+# App Features:
 A user(patient/pregnant women) should be able to:
 1. Login / Registration for user accounts 
 2. Set a daily medication Reminder
@@ -18,4 +18,7 @@ A user(patient/pregnant women) should be able to:
 <div>
 <img src="https://user-images.githubusercontent.com/52883664/201880896-7fd83f04-9020-488b-90f4-1e09c8d0112a.jpg" width="150px"/>
 <img src="https://user-images.githubusercontent.com/52883664/201880943-4b9136b6-160c-428e-b949-9529e99272db.jpg" width="150px"/>
+<img src="https://github.com/Alex-Gichau/Health-Team9/blob/a583b119b022cb3f46e55b128a63aa15ada0af78/app/src/main/res/screenshots/Splash2/iPhone%2013%20Pro%20Max.jpg" width="150px"/>
+<img src="https://github.com/Alex-Gichau/Health-Team9/blob/a583b119b022cb3f46e55b128a63aa15ada0af78/app/src/main/res/screenshots/Splash1/iPhone%2013%20Pro%20Max.jpg" width="150px"/>
+<img src="https://github.com/Alex-Gichau/Health-Team9/blob/a583b119b022cb3f46e55b128a63aa15ada0af78/app/src/main/res/screenshots/Splash0/iPhone%2013%20Pro%20Max.jpg" width="150px"/>
 </div>
