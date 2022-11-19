@@ -1,11 +1,13 @@
 package com.example.maternalhealth.ui
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.WindowManager
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
+import com.example.maternalhealth.MainActivity
 import com.example.maternalhealth.R
 import com.google.firebase.auth.FirebaseAuth
 
@@ -33,6 +35,9 @@ class ForgotPassword : AppCompatActivity() {
             auth.sendPasswordResetEmail(email)
                 .addOnSuccessListener {
                     Toast.makeText(this, "Please Check your email", Toast.LENGTH_SHORT).show()
+                    val intent = Intent(this, LoginActivity::class.java)
+                    startActivity(intent)
+                    finish()
                 }
                 .addOnFailureListener {
                     Toast.makeText(this, "Error", Toast.LENGTH_SHORT).show()
