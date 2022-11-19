@@ -1,21 +1,17 @@
-package com.example.maternalhealth
+package com.example.maternalhealth.ui
 
-import android.content.ContentValues.TAG
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.text.TextUtils
-import android.util.Log
 import android.view.WindowManager
 import android.widget.Button
 import android.widget.EditText
+import android.widget.TextView
 import android.widget.Toast
+import com.example.maternalhealth.R
 import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.firestore.DocumentReference
-import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
-import java.util.Objects
 
 @Suppress("NAME_SHADOWING")
 class RegisterActivity : AppCompatActivity() {
@@ -69,16 +65,19 @@ class RegisterActivity : AppCompatActivity() {
                             Toast.makeText(this, "Error", Toast.LENGTH_SHORT).show()
                         }
 
-                    //NEXT ACTIVITY
+
                     val intent = Intent(this, LoginActivity::class.java)
                     startActivity(intent)
                     finish()
                 }
 
+        }
 
-
-
-
+        val login : TextView = findViewById(R.id.login)
+        login.setOnClickListener {
+            val intent = Intent(this, LoginActivity::class.java)
+            startActivity(intent)
+            finish()
         }
 
 
