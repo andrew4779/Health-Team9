@@ -25,4 +25,28 @@
             android:id="@+id/action_SecondFragment_to_FirstFragment"
             app:destination="@id/FirstFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/splashFragment2"
+        android:name="com.example.maternalhealth.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment2_to_viewPageFragment2"
+            app:destination="@id/viewPageFragment2" />
+        <action
+            android:id="@+id/action_splashFragment2_to_dashBoard3"
+            app:destination="@id/dashBoard" />
+    </fragment>
+    <fragment
+        android:id="@+id/viewPageFragment2"
+        android:name="com.example.maternalhealthcare.onboarding.ViewPageFragment"
+        android:label="ViewPageFragment" >
+        <action
+            android:id="@+id/action_viewPageFragment2_to_dashBoard3"
+            app:destination="@id/dashBoard" />
+    </fragment>
+    <fragment
+        android:id="@+id/dashBoard"
+        android:name="com.example.maternalhealth.DashBoard"
+        android:label="DashBoard" />
 </navigation>
