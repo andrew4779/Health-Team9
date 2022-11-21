@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1022236228563",
+    "project_id": "maternalhealth-bde12",
+    "storage_bucket": "maternalhealth-bde12.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022236228563:android:cef481c0c77740967a8d26",
+        "android_client_info": {
+          "package_name": "com.example.maternalhealth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1022236228563-jg676asfhrib68486ns5k8h50h6hiupo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNgLlQviPgUUZOJ0S9Tyf8MUGuNjpQEnM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1022236228563-jg676asfhrib68486ns5k8h50h6hiupo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
