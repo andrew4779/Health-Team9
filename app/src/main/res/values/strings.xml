@@ -38,4 +38,8 @@
     <string name="upcoming">UPCOMING</string>
     <string name="upcoming_events">Upcoming Events</string>
     <string name="dr_zary_appointment">DR Zary Appointment</string>
+    <string name="_10_days">10 Days</string>
+    <string name="weeks">Weeks</string>
+    <string name="_2_00_pm">2:00 PM</string>
+    <string name="info">Info</string>
 </resources>
