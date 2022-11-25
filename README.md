@@ -21,5 +21,5 @@ A user(patient/pregnant women) should be able to:
 <img src="https://github.com/Alex-Gichau/Health-Team9/blob/a583b119b022cb3f46e55b128a63aa15ada0af78/app/src/main/res/screenshots/Splash2/iPhone%2013%20Pro%20Max.jpg" width="150px"/>
 <img src="https://github.com/Alex-Gichau/Health-Team9/blob/a583b119b022cb3f46e55b128a63aa15ada0af78/app/src/main/res/screenshots/Splash1/iPhone%2013%20Pro%20Max.jpg" width="150px"/>
 <img src="https://github.com/Alex-Gichau/Health-Team9/blob/a583b119b022cb3f46e55b128a63aa15ada0af78/app/src/main/res/screenshots/Splash0/iPhone%2013%20Pro%20Max.jpg" width="150px"/>
-<img src="https://github.com/Alex-Gichau/Health-Team9/blob/development/app/src/main/res/screenshots/iPhone%2013%20Pro%20Max.jpg"/>
+<img src="https://github.com/Alex-Gichau/Health-Team9/blob/development/app/src/main/res/screenshots/iPhone%2013%20Pro%20Max.jpg" width="150px"/>
 </div>
