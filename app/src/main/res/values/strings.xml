@@ -42,4 +42,7 @@
     <string name="weeks">Weeks</string>
     <string name="_2_00_pm">2:00 PM</string>
     <string name="info">Info</string>
+    <string name="for_emergency">FOR EMERGENCY</string>
+    <string name="tap_to_call">TAP TO CALL</string>
+    <string name="emergency_number">0710100100</string>
 </resources>
