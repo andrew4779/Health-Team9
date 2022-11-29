@@ -1,45 +1,34 @@
 package com.example.maternalhealth
 
-import android.Manifest
 import android.content.Intent
-import android.content.pm.PackageManager
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageButton
-import androidx.core.app.ActivityCompat
 
 
 class Emergency : AppCompatActivity() {
 
-    private val phoneNumber = "0710100100"
-    private val REQUEST_PHONE_CALL =1
+
+    private val phoneNumber ="0710100100"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_emergency)
 
-        val call : ImageButton= findViewById(R.id.call)
-
-        call.setOnClickListener {
-            if (ActivityCompat.checkSelfPermission(this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
-                ActivityCompat.requestPermissions(this, arrayOf(Manifest.permission.CALL_PHONE), REQUEST_PHONE_CALL)
-            }else{
-
-                startCall()
-            }
+        val imageButton : ImageButton= findViewById(R.id.call)
+        imageButton.setOnClickListener {
+            dialPhoneNumber()
         }
-
     }
 
-    private fun startCall() {
-        val callIntent = Intent(Intent.ACTION_CALL)
-        callIntent.data = Uri.parse("tell$phoneNumber")
-        startActivity(callIntent)
+    private fun dialPhoneNumber() {
+        val intent = Intent(Intent.ACTION_DIAL).apply {
+            data= Uri.parse("tel:$phoneNumber")
+        }
+        if (intent.resolveActivity(packageManager) !=null)
+            startActivity(intent)
     }
 
-    override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<out String>, grantResults: IntArray) {
-        if (requestCode == REQUEST_PHONE_CALL)
-            startCall()
-    }
+
 }
