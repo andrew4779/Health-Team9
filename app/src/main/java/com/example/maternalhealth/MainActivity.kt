@@ -34,8 +34,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-
-
+        val emergency2: ImageButton=findViewById(R.id.emergency2)
+        emergency2.setOnClickListener {
+            val intent= Intent(this, Emergency::class.java)
+            startActivity(intent)
+        }
 
         val progress: ImageButton = findViewById(R.id.progress)
         progress.setOnClickListener {
