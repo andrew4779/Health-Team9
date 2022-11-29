@@ -7,5 +7,13 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="pink">#E91E63</color>
+    <color name="pink">#FF96DB</color>
+    <color name="green">#6EFB00</color>
+    <color name="emergency">#FA0000</color>
+    <color name="eclipse">#D9D9D9</color>
+    <color name="events">#FFFFFF</color>
+    <color name="upcoming">#FB004D</color>
+    <color name="dates">#4A51FF</color>
+
+
 </resources>
