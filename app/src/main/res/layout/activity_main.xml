@@ -50,7 +50,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="10dp"
         android:gravity="top"
-        android:text="John"
+        android:text=""
         android:textColor="@color/pink"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -110,7 +110,7 @@
         tools:ignore="MissingConstraints" />
 
     <ImageButton
-        android:id="@+id/imageButton4"
+        android:id="@+id/emergency2"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginStart="35dp"
@@ -172,9 +172,9 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
         android:text="@string/emergency"
-        app:layout_constraintEnd_toEndOf="@+id/imageButton4"
-        app:layout_constraintStart_toStartOf="@+id/imageButton4"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton4" />
+        app:layout_constraintEnd_toEndOf="@+id/emergency2"
+        app:layout_constraintStart_toStartOf="@+id/emergency2"
+        app:layout_constraintTop_toBottomOf="@+id/emergency2" />
 
     <View
         android:id="@+id/view2"
@@ -182,7 +182,7 @@
         android:layout_height="90dp"
         android:layout_marginTop="20dp"
         android:background="@drawable/cutom"
-        app:layout_constraintEnd_toEndOf="@+id/imageButton4"
+        app:layout_constraintEnd_toEndOf="@+id/emergency2"
         app:layout_constraintStart_toStartOf="@+id/imageButton"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
         tools:ignore="MissingConstraints,UnusedAttribute" />
@@ -204,7 +204,7 @@
     <View
         android:id="@+id/view3"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="110dp"
         android:layout_marginStart="30dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="30dp"
@@ -328,7 +328,7 @@
         tools:ignore="MissingConstraints" />
 
     <ImageButton
-        android:id="@+id/imageButton6"
+        android:id="@+id/progress"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginStart="10dp"
@@ -340,13 +340,13 @@
         tools:ignore="MissingConstraints" />
 
     <ImageButton
-        android:id="@+id/imageButton7"
+        android:id="@+id/emergency"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginStart="10dp"
         android:layout_marginTop="30dp"
         android:background="@color/pink"
-        app:layout_constraintStart_toEndOf="@+id/imageButton6"
+        app:layout_constraintStart_toEndOf="@+id/progress"
         app:layout_constraintTop_toTopOf="@+id/view6"
         app:srcCompat="@drawable/ic_baseline_call_24" />
 
@@ -357,7 +357,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="30dp"
         android:background="@color/pink"
-        app:layout_constraintStart_toEndOf="@+id/imageButton7"
+        app:layout_constraintStart_toEndOf="@+id/emergency"
         app:layout_constraintTop_toTopOf="@+id/view6"
         app:srcCompat="@drawable/ic_baseline_sick_24"
         android:contentDescription="@string/info" />

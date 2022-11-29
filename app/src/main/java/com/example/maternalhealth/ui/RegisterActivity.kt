@@ -80,7 +80,7 @@ class RegisterActivity : AppCompatActivity() {
             finish()
         }
 
-
-
     }
+
+
 }
