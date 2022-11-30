@@ -21,6 +21,10 @@ class LoginActivity : AppCompatActivity() {
             WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS,
             WindowManager.LayoutParams.FLAG_LAYOUT_IN_SCREEN)
         setContentView(R.layout.activity_login)
+ development
+
+
+
         firebaseAuth = FirebaseAuth.getInstance()
 
 
@@ -54,5 +58,6 @@ class LoginActivity : AppCompatActivity() {
             val intent = Intent(this, RegisterActivity::class.java)
             startActivity(intent)
         }
+ main
     }
 }
